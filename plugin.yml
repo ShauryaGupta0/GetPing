@@ -1,0 +1,16 @@
+name: GetPing
+main: shauryagupta06.getping.GetPing
+version: 1.0
+api: ["1.0.11"]
+author: ShauryaGupta06
+description: A plugin to get the ping of players.
+commands:
+  ping:
+    description: Get your own or another player's ping.
+    aliases: [net]
+    usage: "/ping [player]"
+    permission: getping.command.ping
+permissions:
+  getping.command.ping:
+    description: Allows the player to use the /ping command.
+    default: true
